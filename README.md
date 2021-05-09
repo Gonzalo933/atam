@@ -19,7 +19,7 @@ Este problema se podría afrontar con PCA o LDA, pero introduciendo conocimiento
 
 Las nuevas columnas son:
 
-- `x_y_z_module`: Suma de los módulos de cada una de las mediciones `accx_minus_XXXX`. Es decir, para cada `id_`: $\sum_1^T \sqrt{x_t^2 + y_t^2 + z_t^2}$ donde $t$ es cada una de las mediciones `accx_minus_XXXX`.
+- `x_y_z_module`: Suma de los módulos de cada una de las mediciones `accx_minus_XXXX`. Es decir, para cada `id_`: ![](formula.png) donde `t` es cada una de las mediciones `accx_minus_XXXX`.
 - `x_mean`, `y_mean`, `z_mean`: La media de las aceleraciones.
 - `x_var`, `x_var`, `x_var`: La varianza de las aceleraciones.
 - `x_std`, `x_std`, `x_std`: La desviación estándar de las aceleraciones.
