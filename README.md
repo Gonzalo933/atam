@@ -2,6 +2,7 @@
 
 ## Explicación de la solución
 
+(todo el código esta disponible en los notebooks de la carpeta `notebooks/`)
 ### Exploración de datos
 
 He comenzado realizando un análisis de los datos y un estudio de como agruparlos en un solo dataframe.
